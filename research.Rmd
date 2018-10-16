@@ -1,0 +1,42 @@
+---
+output:
+  html_document: 
+    toc: true
+    toc_float: true
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+&nbsp;
+
+### Peer-Reviewed Publications
+
+[**"Introducing a Performance-Based Component into Jakarta's School Grants: What Do We Know about Its Impact after Three Years?"**](https://doi.org/10.1016/j.econedurev.2018.10.005) (with Al-Samarrai, S., Shrestha, U., Hasan, A., Santoso, S., & Wijoyo, W. H. A.) Accepted at *Economics of Education Review*.
+
+
+[**"The Role of Preschool Quality in Promoting Child Development"**.](files/The role of preschool quality in promoting child development evidence from rural Indonesia.pdf) (with Brinkman, S. A., Hasan, A., Jung, H., Kinnell, A., & Pradhan, M.) *European Early Childhood Education Research Journal*, 25(4), 483-505. 2017.
+
+  + Blog in [Education for Global Development](http://blogs.worldbank.org/education/node/869)
+  
+&nbsp;
+
+
+### Working Papers
+
+[**"Investing in School Readiness: A Comparison of Different Early Childhood Education Pathways in Rural Indonesia"**.](https://elibrary.worldbank.org/doi/pdf/10.1596/1813-9450-7832) (with Hasan, A., Jung, H., Brinkman, S., Pradhan, M., & Kinnell, A.) Revise and Resubmit at *International Journal for Educational Development.* 
+
+  + Covered in [World Bank Research Digest](http://documents.worldbank.org/curated/en/897521507140394691/pdf/Research-Digest-Fall-2017.pdf), Blog in [Education for Global Development](http://blogs.worldbank.org/education/node/947) 
+
+
+**"Levers for Learning: The Relation Between School-Level Factors and Literacy Outcomes in Low-Income Schools in Colombia"**. (with Barrera-Osorio, F., de Barros, A., Dryden-Peterson, S., Mulimbi, B., & Uccelli, P.) Submitted.
+
+&nbsp;
+
+### Research in Progress
+
+**"Long-Run Equilibrium Effects of Short-Term Early Childhood Subsidies"**.
+
+**"The Intergenerational Effects of Maternal Education"**. (with Hasan, A. & Rangel, M.) 
+
+**"Sustainability of Early Childhood Education Projects"**. (with Hasan, A., Jung, H., Kinnell, A., Maika, A., Pradhan, M.)
+
+
