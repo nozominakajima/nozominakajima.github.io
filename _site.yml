@@ -5,8 +5,8 @@ navbar:
   left:
     - text: "Research"
       href: research.html
-    - text: "Teaching"
-      href: teaching.html   
+    - text: "Data"
+      href: data.html   
   right:
     - icon: fa-envelope fa-lg
       href: mailto:nnakajima@g.harvard.edu

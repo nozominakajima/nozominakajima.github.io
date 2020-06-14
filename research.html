@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -23,9 +23,10 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -34,10 +35,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -72,9 +75,7 @@ h6 {
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -88,13 +89,18 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -110,7 +116,6 @@ body {
   padding-top: 69px;
   margin-top: -69px;
 }
-
 .section h2 {
   padding-top: 69px;
   margin-top: -69px;
@@ -130,6 +135,43 @@ body {
 .section h6 {
   padding-top: 69px;
   margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -151,47 +193,66 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
-
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -205,6 +266,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -240,8 +307,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -250,6 +315,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -279,7 +354,7 @@ div.tocify {
   <a href="research.html">Research</a>
 </li>
 <li>
-  <a href="teaching.html">Teaching</a>
+  <a href="data.html">Data</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -314,30 +389,65 @@ div.tocify {
 </div>
 
 
-<p><link rel="stylesheet" href="styles.css" type="text/css">  </p>
-<div id="peer-reviewed-publications" class="section level3">
-<h3>Peer-Reviewed Publications</h3>
-<p><a href="https://doi.org/10.1016/j.econedurev.2018.10.005"><strong>“Introducing a Performance-Based Component into Jakarta’s School Grants: What Do We Know about Its Impact after Three Years?”</strong></a> (with Al-Samarrai, S., Shrestha, U., Hasan, A., Santoso, S., &amp; Wijoyo, W. H. A.) Accepted at <em>Economics of Education Review</em>.</p>
-<p><a href="files/The%20role%20of%20preschool%20quality%20in%20promoting%20child%20development%20evidence%20from%20rural%20Indonesia.pdf"><strong>“The Role of Preschool Quality in Promoting Child Development”</strong>.</a> (with Brinkman, S. A., Hasan, A., Jung, H., Kinnell, A., &amp; Pradhan, M.) <em>European Early Childhood Education Research Journal</em>, 25(4), 483-505. 2017.</p>
-<ul>
-<li>Blog in <a href="http://blogs.worldbank.org/education/node/869">Education for Global Development</a></li>
-</ul>
+<link rel="stylesheet" href="styles.css" type="text/css">
+<div style="line-height: 1.5em;">
 <p> </p>
+<div id="publications" class="section level3">
+<h3>Publications</h3>
+<p><a href="https://doi.org/10.1086/708431">Levers for Learning: Relationships Between School-Level Factors and Literacy Outcomes in Low-Income Schools in Colombia.</a><br />
+(with Barrera-Osorio, F., de Barros, A., Dryden-Peterson, S., Mulimbi, B., &amp; Uccelli, P.)<br />
+<em>Comparative Education Review</em>. 2020.</p>
+<ul>
+<li><a href="files/colombia.pdf">Ungated version</a></li>
+</ul>
+<hr />
+<p><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/desc.12931">Gender Gaps in Cognitive and Socio-emotional Skills in Early Primary Grades.</a><br />
+(with Jung, H., Pradhan, M., Hasan, A., Kinnell, A., &amp; Brinkman, S.)<br />
+<em>Developmental Science</em>. 2019.</p>
+<ul>
+<li>Media coverage: <a href="https://www.thejakartapost.com/academia/2019/10/26/parenting-disregarded-treasure-in-education.html">The Jakarta Post</a><br />
+</li>
+<li><a href="files/gender_indonesia.pdf">Ungated version</a><br />
+</li>
+<li><a href="https://github.com/nozominakajima/gender_indonesia">Replication files</a></li>
+</ul>
+<hr />
+<p><a href="https://doi.org/10.1016/j.ijedudev.2019.05.009">Investing in school readiness: A comparison of different early childhood education pathways in rural Indonesia.</a><br />
+(with Hasan, A., Jung, H., Brinkman, S., Pradhan, M., &amp; Kinnell, A.)<br />
+<em>International Journal for Educational Development</em>. 2019.</p>
+<ul>
+<li>Policy brief: <a href="http://documents.worldbank.org/curated/en/897521507140394691/pdf/Research-Digest-Fall-2017.pdf">World Bank Research Digest</a></li>
+<li>Media coverage: <a href="https://blogs.worldbank.org/education/are-all-early-childhood-education-experiences-equally-cost-effective">Education for Global Development</a></li>
+<li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2843915">Ungated version</a></li>
+<li><a href="https://github.com/nozominakajima/pathways_indonesia">Replication files</a></li>
+</ul>
+<hr />
+<p><a href="https://doi.org/10.1016/j.econedurev.2018.10.005">Introducing a performance-based component into Jakarta’s school grants: What do we know about its impact after three years?</a><br />
+(with Al-Samarrai, S., Shrestha, U., Hasan, A., Santoso, S., &amp; Wijoyo, W. H. A.)<br />
+<em>Economics of Education Review</em>. 2018.</p>
+<ul>
+<li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3057755">Ungated version</a></li>
+</ul>
+<hr />
+<p><a href="https://www.tandfonline.com/doi/abs/10.1080/1350293X.2017.1331062">The Role of Preschool Quality in Promoting Child Development.</a><br />
+(with Brinkman, S. A., Hasan, A., Jung, H., Kinnell, A., &amp; Pradhan, M.)<br />
+<em>European Early Childhood Education Research Journal</em>. 2017.</p>
+<ul>
+<li>Media coverage: <a href="https://blogs.worldbank.org/education/measurement-matters-preschool-quality">Education for Global Development</a></li>
+<li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2741184">Ungated version</a></li>
+</ul>
+<hr />
 </div>
 <div id="working-papers" class="section level3">
 <h3>Working Papers</h3>
-<p><a href="https://elibrary.worldbank.org/doi/pdf/10.1596/1813-9450-7832"><strong>“Investing in School Readiness: A Comparison of Different Early Childhood Education Pathways in Rural Indonesia”</strong>.</a> (with Hasan, A., Jung, H., Brinkman, S., Pradhan, M., &amp; Kinnell, A.) Revise and Resubmit at <em>International Journal for Educational Development.</em></p>
-<ul>
-<li>Covered in <a href="http://documents.worldbank.org/curated/en/897521507140394691/pdf/Research-Digest-Fall-2017.pdf">World Bank Research Digest</a>, Blog in <a href="http://blogs.worldbank.org/education/node/947">Education for Global Development</a></li>
-</ul>
-<p><strong>“Levers for Learning: The Relation Between School-Level Factors and Literacy Outcomes in Low-Income Schools in Colombia”</strong>. (with Barrera-Osorio, F., de Barros, A., Dryden-Peterson, S., Mulimbi, B., &amp; Uccelli, P.) Submitted.</p>
+<p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3490315">Built to Last: Sustainability of Early Childhood Education Services in Rural Indonesia</a>.<br />
+(with Hasan, A., Jung, H., Kinnell, A., Maika, A., Pradhan, M.)</p>
+<p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3490314">Contrasting Experiences: Understanding the Longer-Term Impact of Improving Access to Preschool Education in Rural Indonesia</a>.<br />
+(with Hasan, A., Jung, H., Kinnell, A., Maika, A., Pradhan, M.)</p>
+<p>Mama knows (and does) best: The intergenerational impacts of school construction in Indonesia.<br />
+(with Hasan, A. &amp; Rangel, M.)</p>
+<p>Long-Run Equilibrium Effects of Short-Term Early Childhood Subsidies.</p>
 <p> </p>
-</div>
-<div id="research-in-progress" class="section level3">
-<h3>Research in Progress</h3>
-<p><strong>“Long-Run Equilibrium Effects of Short-Term Early Childhood Subsidies”</strong>.</p>
-<p><strong>“The Intergenerational Effects of Maternal Education”</strong>. (with Hasan, A. &amp; Rangel, M.)</p>
-<p><strong>“Sustainability of Early Childhood Education Projects”</strong>. (with Hasan, A., Jung, H., Kinnell, A., Maika, A., Pradhan, M.)</p>
 </div>
 
 
@@ -358,6 +468,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

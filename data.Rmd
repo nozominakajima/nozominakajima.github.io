@@ -1,0 +1,28 @@
+---
+output:
+  html_document: 
+    #toc: true
+    toc_float: true
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+&nbsp;
+
+### Indonesia Early Childhood Education & Development (ECED) Project
+
+The Indonesia ECED Project expanded access to early childhood education services in rural Indonesia. The impact evaluation of the project sampled 310 rural villages and followed over 6,000 children in these villages in 2009 (baseline), 2010, 2013, and 2016. 
+
+The design, implementation, and data collection for this project was made possible by the efforts of many researchers, field staff, and enumerators. The current investigators/researchers on this project are [Menno Pradhan](https://www.uva.nl/en/profile/p/r/m.p.pradhan/m.p.pradhan.html?cb), [Amer Hasan](https://blogs.worldbank.org/team/amer-hasan), [Haeil Jung](https://kupa.korea.edu/kupaeng/professor/fulltime.do?mode=view&articleNo=36685&article.offset=0&articleLimit=200), [Angela Kinnell](), [Amelia Maika](https://acadstaff.ugm.ac.id/amelia), and [Nozomi Nakajima](https://nozominakajima.github.io/).
+
+We have made our datasets public through the World Bank Microdata Library:    
+
+  + [2009](https://microdata.worldbank.org/index.php/catalog/3534)  
+  + [2010](https://microdata.worldbank.org/index.php/catalog/3535)  
+  + [2013](https://microdata.worldbank.org/index.php/catalog/3536)  
+  + [2016](https://microdata.worldbank.org/index.php/catalog/3537)  
+
+
+
+
+
+
