@@ -27,7 +27,7 @@ output:
   + [Replication files](https://github.com/nozominakajima/gender_indonesia) 
   
 ***
-[Investing in school readiness: A comparison of different early childhood education pathways in rural Indonesia.](https://doi.org/10.1016/j.ijedudev.2019.05.009)   
+[Investing in School Readiness: A Comparison of Different Early Childhood Education Pathways in Rural Indonesia.](https://doi.org/10.1016/j.ijedudev.2019.05.009)   
 (with Hasan, A., Jung, H., Brinkman, S., Pradhan, M., & Kinnell, A.)  
 *International Journal for Educational Development*. 2019. 
 
@@ -37,7 +37,7 @@ output:
   + [Replication files](https://github.com/nozominakajima/pathways_indonesia)
 
 ***
-[Introducing a performance-based component into Jakarta's school grants: What do we know about its impact after three years?](https://doi.org/10.1016/j.econedurev.2018.10.005)     
+[Introducing a Performance-Based Component Into Jakarta's School Grants: What Do We Know About Its Impact After Three Years?](https://doi.org/10.1016/j.econedurev.2018.10.005)     
 (with Al-Samarrai, S., Shrestha, U., Hasan, A., Santoso, S., & Wijoyo, W. H. A.)    
 *Economics of Education Review*. 2018.   
 
@@ -56,15 +56,15 @@ output:
 ### Working Papers
 
 [Built to Last: Sustainability of Early Childhood Education Services in Rural Indonesia](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3490315).  
-(with Hasan, A., Jung, H., Kinnell, A., Maika, A., Pradhan, M.)
+(with Hasan, A., Jung, H., Kinnell, A., Maika, A. & Pradhan, M.)
 
 [Contrasting Experiences: Understanding the Longer-Term Impact of Improving Access to Preschool Education in Rural Indonesia](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3490314).  
-(with Hasan, A., Jung, H., Kinnell, A., Maika, A., Pradhan, M.)
+(with Hasan, A., Jung, H., Kinnell, A., Maika, A. & Pradhan, M.)
 
-Promoting Parental Involvement in Schools: Evidence from Two Randomized Experiments.  
-(with Barrera-Osorio, F., Gertler, P., Patrinos, H.)
+Promoting Parental Involvement in Schools: Evidence From Two Randomized Experiments.  
+(with Barrera-Osorio, F., Gertler, P. & Patrinos, H.)
 
-Mama knows (and does) best: The intergenerational impacts of school construction in Indonesia.  
+Mama Knows (And Does) Best: The Intergenerational Impacts of School Construction in Indonesia.  
 (with Hasan, A. & Rangel, M.)  
 
 Long-Run Equilibrium Effects of Short-Term Early Childhood Subsidies.  
