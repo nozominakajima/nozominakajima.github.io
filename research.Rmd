@@ -9,8 +9,26 @@ output:
 <div style="line-height: 1.5em;">
 &nbsp;
 
-### Publications
+### Working Papers
 
+[Promoting Parental Involvement in Schools: Evidence From Two Randomized Experiments.](files/parenting_mexico.pdf)  
+(with Barrera-Osorio, F., Gertler, P. & Patrinos, H.)
+
+[Mama Knows (And Does) Best: Maternal Schooling Opportunities and Child Development in Indonesia.](files/mama_indonesia.pdf)  
+(with Hasan, A. & Rangel, M.)  
+
+Long-Run Equilibrium Effects of Short-Term Early Childhood Subsidies.  
+
+*** 
+
+### Publications
+Contrasting Experiences: Understanding the Longer-Term Impact of Improving Access to Preschool Education in Rural Indonesia.   
+(with Hasan, A., Jung, H., Kinnell, A., Maika, A. & Pradhan, M.)  
+*Journal of Research on Educational Effectiveness*. Forthcoming.
+
+  + [Ungated version](files/twocohort_indonesia.pdf)
+  
+***  
 [Levers for Learning: Relationships Between School-Level Factors and Literacy Outcomes in Low-Income Schools in Colombia.](https://doi.org/10.1086/708431)   
 (with Barrera-Osorio, F., de Barros, A., Dryden-Peterson, S., Mulimbi, B., & Uccelli, P.)  
 *Comparative Education Review*. 2020.
@@ -24,7 +42,7 @@ output:
 
   + Media coverage: [The Jakarta Post](https://www.thejakartapost.com/academia/2019/10/26/parenting-disregarded-treasure-in-education.html)   
   + [Ungated version](files/gender_indonesia.pdf)   
-  + [Replication files](https://github.com/nozominakajima/gender_indonesia) 
+  + [Data & Code](https://github.com/nozominakajima/gender_indonesia) 
   
 ***
 [Investing in School Readiness: A Comparison of Different Early Childhood Education Pathways in Rural Indonesia.](https://doi.org/10.1016/j.ijedudev.2019.05.009)   
@@ -34,7 +52,7 @@ output:
   + Policy brief: [World Bank Research Digest](http://documents.worldbank.org/curated/en/897521507140394691/pdf/Research-Digest-Fall-2017.pdf)
   + Media coverage: [Education for Global Development](https://blogs.worldbank.org/education/are-all-early-childhood-education-experiences-equally-cost-effective) 
   + [Ungated version](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2843915)
-  + [Replication files](https://github.com/nozominakajima/pathways_indonesia)
+  + [Data & Code](https://github.com/nozominakajima/pathways_indonesia)
 
 ***
 [Introducing a Performance-Based Component Into Jakarta's School Grants: What Do We Know About Its Impact After Three Years?](https://doi.org/10.1016/j.econedurev.2018.10.005)     
@@ -52,23 +70,6 @@ output:
   + [Ungated version](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2741184)  
 
 *** 
-
-### Working Papers
-
-[Built to Last: Sustainability of Early Childhood Education Services in Rural Indonesia](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3490315).  
-(with Hasan, A., Jung, H., Kinnell, A., Maika, A. & Pradhan, M.)
-
-[Contrasting Experiences: Understanding the Longer-Term Impact of Improving Access to Preschool Education in Rural Indonesia](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3490314).  
-(with Hasan, A., Jung, H., Kinnell, A., Maika, A. & Pradhan, M.)
-
-Promoting Parental Involvement in Schools: Evidence From Two Randomized Experiments.  
-(with Barrera-Osorio, F., Gertler, P. & Patrinos, H.)
-
-Mama Knows (And Does) Best: The Intergenerational Impacts of School Construction in Indonesia.  
-(with Hasan, A. & Rangel, M.)  
-
-Long-Run Equilibrium Effects of Short-Term Early Childhood Subsidies.  
-
 
 &nbsp;
 
