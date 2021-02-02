@@ -22,9 +22,9 @@ output:
 *** 
 
 ### Publications
-Contrasting Experiences: Understanding the Longer-Term Impact of Improving Access to Preschool Education in Rural Indonesia.   
+[Contrasting Experiences: Understanding the Longer-Term Impact of Improving Access to Preschool Education in Rural Indonesia.](https://www.tandfonline.com/doi/full/10.1080/19345747.2020.1839989)   
 (with Hasan, A., Jung, H., Kinnell, A., Maika, A. & Pradhan, M.)  
-*Journal of Research on Educational Effectiveness*. Forthcoming.
+*Journal of Research on Educational Effectiveness*. 2021.
 
   + [Ungated version](files/twocohort_indonesia.pdf)
   
