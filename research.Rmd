@@ -79,6 +79,12 @@ output:
   + [Ungated version](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2741184)  
 
 *** 
+ 
+### Policy Writing
+
+[A Practical Guide to Conducting Economic & Financial Analyses for Education Projects.](files/EFA_guidance_note.pdf) 2016.
+  
+  + I wrote this guidance note for large-scale education projects when I worked at the World Bank (2014-2016). 
 
 &nbsp;
 
