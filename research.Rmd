@@ -13,7 +13,7 @@ output:
 
 [Built to Last: Sustainability of Early Childhood Education Services in Rural Indonesia.](https://www.tandfonline.com/doi/full/10.1080/00220388.2021.1873283)   
 (with Hasan, A., Jung, H., Kinnell, A., Maika, A. & Pradhan, M.)  
-*The Journal of Development Studies*. 2021.
+*Journal of Development Studies*. 2021.
   
   + [Data & Code](https://github.com/nozominakajima/sustainability)
 
@@ -71,27 +71,31 @@ output:
  
 ### Working Papers
 
-[Evidence-Based Decisions and Education Policymakers.](files/nakajima_policymaker.pdf)
+Please email me for the most recent version of my working papers.
+
+***
+
+**Evidence-Based Decisions and Education Policymakers.**
 
 In today’s era of evidence-based policymaking, education policymakers face pressure to use research to inform their decisions. This paper explores the mental models that education policymakers use when integrating research evidence in their policy decisions, with a focus on those working in state and local education agencies in the United States. First, I examine policymakers’ preferences for research evidence. Using a discrete choice experiment, I present policymakers with a series of research studies that vary along attributes of internal and external validity. I find that policymakers have preferences for larger studies and studies conducted in similar contexts as their own jurisdiction. However, they do not have a preference between experimental and observational studies. Second, I explore how much policymakers update their beliefs about the effectiveness of education policies using an information experiment. I show that policymakers update their beliefs in response to research evidence, but these effects are large and persistent only when the information presented contains a brief, accessible explanation of how the evidence was generated. The results of my study have implications for the production of education research, training of education leaders, and communication of scientific evidence.
 
 ***
 
-[Promoting Parental Involvement in Schools: Evidence From Two Randomized Experiments.](files/parenting_mexico.pdf)  
+**Promoting Parental Involvement in Schools: Evidence From Two Randomized Experiments.**  
 (with Barrera-Osorio, F., Gertler, P. & Patrinos, H.)
 
 Parental involvement programs aim to strengthen school-home relations with the goal of improving children’s educational outcomes. We examine the effects of a parental involvement program in Mexico, which provides parent associations with grants and information. We separately estimate the effect of the grants from the effect of the information using data from two randomized controlled trials conducted by the government during the rollout of the program. Grants to parent associations did not improve educational outcomes. Information to parent associations reduced disciplinary actions in schools, mainly by increasing parental involvement in schools and changing parenting behavior at home. The divergent results from grants and information are partly explained by significant changes in perceptions of trust between parents and teachers. Our results suggest that parental involvement interventions may not achieve their intended goal if institutional rules are unclear about the expectations of parents and teachers as parents increase their involvement in schools.
 
 ***
 
-[Long-run Effects of Short-term Grants in Early Childhood Education.](files/longrun_indonesia.pdf)
+**Long-Run Effects of Short-Term Grants in Early Childhood Education.**
 
 The expansion of early childhood education in developing countries has been supported by
 project interventions, which provide subsidized programs for a fixed period of time, followed by the introduction of small user fees in order to sustain the programs. How do short-term subsidies affect preschool enrollment and fees in the long run? This paper uses data from Indonesia, where a three-year subsidy expanded access to early childhood education. Using a difference-in-differences design, I show that the short-term subsidy had long-term effects on raising preschool enrollment rates but no significant impacts on preschool fees. I conduct a survey experiment to test different demand-side mechanisms. The results are most consistent with learning effects: parents updated their beliefs about the benefits of preschool from increased access to them as a result of the short-term subsidy.
 
 ***
 
-[Mama Knows (And Does) Best: Maternal Schooling Opportunities and Child Development in Indonesia.](files/mama_indonesia.pdf)  
+**Mama Knows (And Does) Best: Maternal Schooling Opportunities and Child Development in Indonesia.**  
 (with Hasan, A. & Rangel, M.)  
 
 This paper leverages quasi-experimental variation in increased access to basic formal education -- introduced by a large-scale school construction program in Indonesia in the 1970s -- to quantify the benefits to the children of women targeted by the program. Novel and rich data allow the analysis of a range of health, cognitive and socio-emotional outcomes for children. We find that increased maternal access to schooling has positive effects on children’s development along multiple developmental outcomes. We also explore pathways of these intergenerational effects. Mothers who were exposed to more schooling opportunities during childhood demonstrate less hostility toward their own children as parents and invest more in their own children’s preschool education.
