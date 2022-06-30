@@ -8,7 +8,28 @@ output:
 <link rel="stylesheet" href="styles.css" type="text/css">
 <div style="line-height: 1.5em;">
 &nbsp;
+ 
+### Working Papers
 
+[Evidence-Based Decisions and Education Policymakers.](files/nakajima_policymaker.pdf)
+
+***
+
+[Promoting Parental Involvement in Schools: Evidence From Two Randomized Experiments.](files/parenting_mexico.pdf) 
+(with Barrera-Osorio, F., Gertler, P. & Patrinos, H.)
+
++ Media coverage: [VoxDev](https://voxdev.org/topic/health-education/promoting-parental-involvement-schools-evidence-mexico), [VoxEU](https://voxeu.org/article/promoting-parental-involvement-schools), [FutureEd](https://www.future-ed.org/promoting-parental-involvement-in-schools), [The Hechinger Report](https://hechingerreport.org/proof-points-when-parents-got-involved-in-schools-kids-did-no-better/), [World Bank Blogs](https://blogs.worldbank.org/developmenttalk/promoting-parental-involvement-schools-evidence-mexico?cid=SHR_BlogSiteShare_EN_EXT) 
+
+***
+
+[Long-Run Effects of Short-Term Grants in Early Childhood Education.](files/longrun_indonesia.pdf)
+
+***
+
+[Mama Knows (And Does) Best: Maternal Schooling Opportunities and Child Development in Indonesia.](files/mama_indonesia.pdf)  
+(with Hasan, A. & Rangel, M.)
+
+*** 
 ### Peer-Reviewed Publications
 
 [Built to Last: Sustainability of Early Childhood Education Services in Rural Indonesia.](https://www.tandfonline.com/doi/full/10.1080/00220388.2021.1873283)   
@@ -68,21 +89,7 @@ output:
   + [Ungated version](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2741184)  
 
 *** 
- 
-### Working Papers
 
-[Evidence-Based Decisions and Education Policymakers.](files/nakajima_policymaker.pdf)
-
-[Promoting Parental Involvement in Schools: Evidence From Two Randomized Experiments.](files/parenting_mexico.pdf) 
-(with Barrera-Osorio, F., Gertler, P. & Patrinos, H.)
-
-[Long-Run Effects of Short-Term Grants in Early Childhood Education.](files/longrun_indonesia.pdf)
-
-[Mama Knows (And Does) Best: Maternal Schooling Opportunities and Child Development in Indonesia.](files/mama_indonesia.pdf)  
-(with Hasan, A. & Rangel, M.)  
-
-*** 
- 
 ### Other Writing
 
 [A Practical Guide to Conducting Economic & Financial Analyses for Education Projects.](files/EFA_guidance_note.pdf)
